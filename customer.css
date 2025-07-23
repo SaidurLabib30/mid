@@ -1,0 +1,72 @@
+/* Body styling */
+body {
+    background-color: #a9c0ce;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Form container */
+form {
+    position: relative;           
+    display: block;               
+    max-width: 600px;              
+    margin: 50px auto;             
+    padding: 20px;               
+    border: 2px solid #ccc;        
+    border-radius: 10px;
+    background-color: #d7c8be;
+    z-index: 1;                    
+    box-shadow: 0 4px 8px rgba(202, 173, 173, 0.1);
+}
+
+/* Table cell spacing */
+td {
+    padding: 8px;
+    margin: 0;
+    display: inline-block;         
+    width: 48%;                   
+}
+
+/* Inputs and selects */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #888;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Submit button */
+input[type="submit"] {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 25px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    z-index: 2;
+    position: relative;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Legend styling */
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    display: inline-block;
+    background-color: #eee;
+}
